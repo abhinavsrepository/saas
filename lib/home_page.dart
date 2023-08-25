@@ -6,9 +6,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-          child: Text('Welcome to ecomerce',
-              style: TextStyle(fontFamily: 'Lato'))),
+      body: Column(
+          children: Text('Shoes Collection',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 35))),
     );
   }
 }
